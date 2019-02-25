@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40adbaa9-6fe7-4511-bdac-bf03bf83ebde" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/creational_factory_pattern/CommercialPlan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/creational_factory_pattern/DomesticPlan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/creational_factory_pattern/GenerateBill.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/creational_factory_pattern/GetPlanFactoryPattern.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/creational_factory_pattern/InstitutionalPlan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/creational_factory_pattern/Plan.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/BillPughSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/EagerInitializedSinglton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/LazyIntializedSigleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/ReflectionDestroySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/SerializedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/StaticBlockSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_singleton_pattern/ThreadSafeSingletonBest.java" afterDir="false" />
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,15 +33,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/creational_factory_pattern/GetPlanFactoryPattern.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/BillPughSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="method#BillPughSingleton#0;class#BillPughSingleton#0" expanded="true" />
+                <element signature="class#BillPughSingleton_Helper#0;class#BillPughSingleton#0" expanded="true" />
+                <element signature="method#getBillPughSingleton_Instance#0;class#BillPughSingleton#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/ThreadSafeSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="method#ThreadSafeSingleton#0;class#ThreadSafeSingleton#0" expanded="true" />
+                <element signature="method#getThreadSafeSIngleton_instance#0;class#ThreadSafeSingleton#0" expanded="true" />
+                <element signature="method#getInstanceUsingDoubleLocking#0;class#ThreadSafeSingleton#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/StaticBlockSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="initializer##0;class#StaticBlockSingleton#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/ReflectionDestroySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#ReflectionDestroySingleton#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/EagerInitializedSinglton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="method#EagerInitializedSinglton#0;class#EagerInitializedSinglton#0" expanded="true" />
+                <element signature="method#getInstanceEagerIntializedSingleton#0;class#EagerInitializedSinglton#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/SerializedSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="method#SerializedSingleton#0;class#SerializedSingleton#0" expanded="true" />
+                <element signature="class#SingletonHelper#0;class#SerializedSingleton#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+              </folding>
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/creational_factory_pattern/GenerateBill.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -69,6 +164,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/ThreadSafeSingletonBest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="method#ThreadSafeSingletonBest#0;class#ThreadSafeSingletonBest#0" expanded="true" />
+                <element signature="method#getInstance#0;class#ThreadSafeSingletonBest#0" expanded="true" />
+              </folding>
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
             </state>
           </provider>
         </entry>
@@ -82,14 +187,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Shape</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Shape_Prototype</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/creational_singleton_pattern/EagerInitializedSinglton.java" />
         <option value="$PROJECT_DIR$/src/creational_singleton_pattern/SerializedSingleton.java" />
         <option value="$PROJECT_DIR$/src/creational_singleton_pattern/ThreadSafeSingletonBest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/creational_prototype_pattern/StudentPrototypePattern.java" />
         <option value="$PROJECT_DIR$/src/creational_prototype_pattern/Circle.java" />
         <option value="$PROJECT_DIR$/src/creational_prototype_pattern/Rectangle.java" />
@@ -121,14 +219,10 @@
         <option value="$PROJECT_DIR$/src/creational_factory_pattern/InstitutionalPlan.java" />
         <option value="$PROJECT_DIR$/src/creational_factory_pattern/Plan.java" />
         <option value="$PROJECT_DIR$/src/creational_factory_pattern/GenerateBill.java" />
+=======
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
       </list>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="30" />
@@ -143,6 +237,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +255,7 @@
               <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="creational_factory_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,25 +263,34 @@
               <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="creational_prototype_pattern" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="creational_singleton_pattern" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551110628610" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551000579648" />
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,6 +304,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.GenerateBill">
     <configuration name="GenerateBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational_factory_pattern.GenerateBill" />
@@ -232,6 +339,8 @@
       </list>
     </recent_temporary>
   </component>
+=======
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,15 +352,23 @@
       <option name="presentableId" value="Default" />
       <updated>1550986771921</updated>
       <workItem from="1550986778971" duration="187000" />
+<<<<<<< HEAD
       <workItem from="1550993225924" duration="7306000" />
       <workItem from="1551023674872" duration="3411000" />
       <workItem from="1551038169169" duration="598000" />
       <workItem from="1551108168133" duration="2909000" />
+=======
+      <workItem from="1550993225924" duration="7133000" />
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="14411000" />
+=======
+    <option name="totallyTimeSpent" value="7320000" />
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -283,13 +400,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32954547" />
-      <window_info anchor="right" id="PlantUML" order="4" weight="0.32954547" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Graphical Navigator" internal_type="SLIDING" order="7" type="SLIDING" />
       <window_info anchor="right" id="UML Diagrams" internal_type="SLIDING" order="8" type="SLIDING" />
-      <window_info anchor="right" id="UML design tool window" order="9" weight="0.32954547" />
+      <window_info anchor="right" id="UML design tool window" order="9" />
       <window_info anchor="right" id="Database" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info anchor="right" id="Theme Preview" order="12" />
@@ -297,10 +414,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/LazyIntializedSigleton.java">
@@ -393,14 +506,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_singleton_pattern/ThreadSafeSingletonBest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="method#ThreadSafeSingletonBest#0;class#ThreadSafeSingletonBest#0" expanded="true" />
+            <element signature="method#getInstance#0;class#ThreadSafeSingletonBest#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/creational_prototype_pattern/StudentPrototypePattern.java" />
     <entry file="file://$PROJECT_DIR$/src/creational_prototype_pattern/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -517,6 +632,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of 8fb4602... Prototype Pattern +Anti_Patterns/+UML
   </component>
   <component name="masterDetails">
     <states>
